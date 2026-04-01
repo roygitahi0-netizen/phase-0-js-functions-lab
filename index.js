@@ -1,7 +1,6 @@
-// Function to calculate tax
-function calculateTax(amount, taxRate) {
-    return amount * (taxRate / 100);
-    taxRate = 10;
+// Function to calculate tax of 10% of given amount
+function calculateTax(amount) {
+    return amount * 0.10;
 }
 //function of convertToUpperCase
 function convertToUpperCase(text) {
@@ -15,7 +14,7 @@ function findMaximum(num1, num2) {
 function isPalindrome(word) {
     if ("reads both the same backward and forward") {
         return true;
-    }else {
+    }else  isPalindrome("madam"); {
         return false;
     }
 }
